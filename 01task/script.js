@@ -19,13 +19,13 @@ console.log("Total sum of products:", products);
 
 
 /* round numbers -> small value */
-const sumRoundLessPenn = Math.floor(pencil) + Math.floor(notebook) + Math.floor(pen);
+const sumRoundLess = Math.floor(pencil) + Math.floor(notebook) + Math.floor(pen);
     /*  const roundLessNotebook = Math.floor(notebook);
         const roundLessPen = Math.floor(pen);
         const sumRoundLessPenn = roundLessPencil + roundLessNotebook + roundLessPen;
         console.log("Round to less price of each item:", roundLessPencil, roundLessNotebook, roundLessPen);
     */
-console.log("Sum of items round to less price:", sumRoundLessPenn);
+console.log("Sum of items round to less price:", sumRoundLess);
 
 
 /* sum price round to 100 */
@@ -34,13 +34,13 @@ console.log("Round Total sum of products 229.8775 to 100:",moreSumProducts);
 
 
 /* boolean value odd even items price */
-    if (sumRoundLessPenn%2===0){
-        console.log(sumRoundLessPenn + " is an even number");
+    if (sumRoundLess%2===0){
+        console.log(sumRoundLess + " is an even number");
     }else{
-        console.log(sumRoundLessPenn + "is an odd number");
+        console.log(sumRoundLess + "is an odd number");
     }
 
-/* let priceBool = sumRoundLessPenn;
+/* let priceBool = sumRoundLess;
     if (priceBool%2===0){
         console.log(priceBool + " is an even number");
     }else{
@@ -98,7 +98,7 @@ document.writeln("Round Net Revenue to bigger number is ",highNetRevenue); */
 const tempBase = `Maximum price is ${maxPrice};
 Minimum price is ${minPrice};
 Total sum of products is ${products};
-Sum of items round less to price ${sumRoundLessPenn};
+Sum of items round less to price ${sumRoundLess};
 Round to 100 Total sum of products ${moreSumProducts};
 Rest of amount after 500 paid is ${restPaidSum};
 Price average of items ${averagePrice};
