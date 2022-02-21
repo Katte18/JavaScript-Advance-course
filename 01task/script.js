@@ -120,5 +120,5 @@ console.log(tempBase);
 //        summ = summ + items[i++];}
 //    return summ / ArrayLen;}
 // var a = (ArrayAvg(items)).toFixed(2);
-// console.log(a) */
+// console.log(a)
 
