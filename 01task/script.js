@@ -20,11 +20,11 @@ console.log("Total sum of products:", products);
 
 /* round numbers -> small value */
 const sumRoundLess = Math.floor(pencil) + Math.floor(notebook) + Math.floor(pen);
-    /*  const roundLessNotebook = Math.floor(notebook);
-        const roundLessPen = Math.floor(pen);
-        const sumRoundLessPenn = roundLessPencil + roundLessNotebook + roundLessPen;
-        console.log("Round to less price of each item:", roundLessPencil, roundLessNotebook, roundLessPen);
-    */
+    // const roundLessNotebook = Math.floor(notebook);
+    //   const roundLessPen = Math.floor(pen);
+    //   const sumRoundLessPenn = roundLessPencil + roundLessNotebook + roundLessPen;
+    //   console.log("Round to less price of each item:", roundLessPencil, roundLessNotebook, roundLessPen);
+    
 console.log("Sum of items round to less price:", sumRoundLess);
 
 
@@ -40,12 +40,12 @@ console.log("Round Total sum of products 229.8775 to 100:",moreSumProducts);
         console.log(sumRoundLess + "is an odd number");
     }
 
-/* let priceBool = sumRoundLess;
-    if (priceBool%2===0){
-        console.log(priceBool + " is an even number");
-    }else{
-        console.log(priceBool + "is an odd number");
-    }
+ // let priceBool = sumRoundLess;
+ //   if (priceBool%2===0){
+ //       console.log(priceBool + " is an even number");
+ //   }else{
+ //       console.log(priceBool + "is an odd number");
+ //   }
 
 additional check for odd value 
 let priceBoolProducts = Math.floor(products);
@@ -71,10 +71,10 @@ console.log("Price average of items:", averagePrice);
 const randomDiscount = Math.floor(Math.random() * 21) + 10;
 console.log("Random Discount in digits range 10-30:",randomDiscount);
 
-/*const minDiscount = 10;
-const maxDiscount = 20;
-const randomDiscount = Math.floor(Math.random() * maxDiscount) + minDiscount +1;
- */
+// const minDiscount = 10;
+// const maxDiscount = 20;
+// const randomDiscount = Math.floor(Math.random() * maxDiscount) + minDiscount +1;
+ 
 
 
 /* discount of total sum of items */
@@ -89,9 +89,9 @@ console.log("Cost of goods sold:", goodsSold);
 const netRevenue = (goodsSold - (products * randomDiscount / 100));
 document.writeln("Net Revenue: ",netRevenue);
 
-/* round to bigger digit net revenue 
-const highNetRevenue = Math.ceil(netRevenue);
-document.writeln("Round Net Revenue to bigger number is ",highNetRevenue); */
+// round to bigger digit net revenue 
+// const highNetRevenue = Math.ceil(netRevenue);
+// document.writeln("Round Net Revenue to bigger number is ",highNetRevenue);
 
 
 /* advanced literal template */
@@ -109,19 +109,16 @@ Net Revenue is ${netRevenue};`;
 console.log(tempBase);
 
 
-/* max/min number of array -> additional practice 
-const items = [15.678, 123.965, 90.2345];
-console.log("Max value of array:", Math.max(...items),"Min value of array:", Math.min(...items));
-*/
+// max/min number of array -> additional practice 
+// const items = [15.678, 123.965, 90.2345];
+// console.log("Max value of array:", Math.max(...items),"Min value of array:", Math.min(...items));
 
-/* average with array -> additional practice 
-function ArrayAvg(items) {
-    var i = 0, summ = 0, ArrayLen = items.length;
-    while (i < ArrayLen) {
-        summ = summ + items[i++];
-}
-    return summ / ArrayLen;
-}
-var a = (ArrayAvg(items)).toFixed(2);
-console.log(a) */
+// average with array -> additional practice 
+// function ArrayAvg(items) {
+//    var i = 0, summ = 0, ArrayLen = items.length;
+//    while (i < ArrayLen) {
+//        summ = summ + items[i++];}
+//    return summ / ArrayLen;}
+// var a = (ArrayAvg(items)).toFixed(2);
+// console.log(a) */
 
