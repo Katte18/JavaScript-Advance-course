@@ -8,7 +8,7 @@ let nNum;
 
     console.log("Integer N number:", nNum);
 
-/* get integer N number from a user */ 
+/* get integer M number from a user */ 
 
 let mNum;
     do {
