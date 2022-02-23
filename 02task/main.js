@@ -20,18 +20,19 @@ let mNum;
 
 /* boolean parameter for omit even numbers */
 
-let evenNum = confirm ("Should omit even numbers?")
-console.log(evenNum);
+//let evenNum = confirm ("Should omit even numbers?") // convert to constant
+const EVEN_NUM = confirm ("Should omit even numbers?")
+console.log(EVEN_NUM);
  
 /* loop of N and M numbers */
 
-let evenSum = 0;
+let sum = 0;
 for (let i = +nNum; i <= +mNum; i++) {
-    if (evenNum &&  i%2  === 0)  continue;
-    evenSum += i; 
+    if (EVEN_NUM &&  i%2  === 0)  continue;
+    sum += i; 
 }
-console.log(evenSum);
-document.writeln("Output of sum of numbers: ", evenSum);
+console.log(sum);
+document.writeln("Output of sum of numbers: ", sum);
 
 /* loop of N and M numbers with add output */
 //let evenSum = 0;
