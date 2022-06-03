@@ -1,0 +1,78 @@
+html {
+  background: url('https://images.unsplash.com/photo-1476842634003-7dcca8f832de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80')
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #D3FBD8;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  letter-spacing: 0.1em;
+}
+
+/* task section */
+.main-container {
+  width: 100%;
+  margin-top: 55px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: baseline;
+}
+
+
+.left-task-top,
+.left-task-bottom,
+.right-task-top,
+.right-task-bottom {
+  display: block;
+}
+
+.left-task-top {
+  margin-top: 45px;
+}
+
+.left-task-bottom {
+  margin-top: 75px;
+}
+
+.right-task-bottom {
+  margin-top: 55px;
+}
+
+p {
+  text-align: left;
+}
+
+.task {
+ background-color: #222A29;
+ opacity: 0.89;
+ box-shadow: 0 0 10px #B4C8E3;
+ border-radius: 10px;
+ margin: 25px;
+ padding: 15px;
+}
+
+/* button */
+
+button {
+  margin-left: 45px;
+  width: 125px;
+  height: 35px;
+  border-radius: 10px;
+  color: #e3e3e3;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  background-color: #324B60;
+}
