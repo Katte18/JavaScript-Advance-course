@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS Task 06</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+<h1>Об'єкти. Операції rest та spread</h1>
+
+<section class="left-side">
+  <!-- task one -->
+  <div class="task">
+    Створіть функцію <strong>getSubjects(students[0]),</strong><br>
+    яка повертає список предметів для конкретного студента.<br>
+    Зверніть увагу на назву предмету, її необхідно повертати з великої літери<br>
+    та а _ – замінити на пробіл.<br>
+    <em>Наприклад, ["Math", "Algorithms", "Data science"]</em><br>
+
+    <button id="task-one" type="button" name="button" onclick ="alert(getSubjects);">
+      Код</button>
+  </div>
+
+<!-- task two -->
+  <div class="task">
+    Створіть функцію <strong>getAverageMark(students[0]),</strong><br>
+    яка поверне середню оцінку по усім предметам для переданого студента.<br>
+    <span class="task-warn">Не масива</span> студентів.<br>
+    Оцінку округліть до 2ого знаку.<br>
+    <em>Результат: 3.79.</em><br>
+
+    <button id="task-two" type="button" name="button" onclick ="alert(getAverageMark);">
+      Код</button>
+  </div>
+
+<!-- task three -->
+  <div class="task">
+    Створіть функцію <strong>getStudentInfo(students[0]),</strong><br>
+    яка повертає інформацію загального виду по переданому студенту.<br>
+    <em>(вам знадобиться функція з попереднього завдання</em><br>
+    Пoвинна бути виведена інформація: курс, ім'я, середня оцінка.<br>
+    <em>Результат: { "course": 3, "name": "Tanya", "averageMark": 3.79}.</em><br>
+
+    <button id="task-three" type="button" name="button" onclick ="alert(getStudentInfo);">
+      Код</button>
+  </div>
+
+<!-- task four -->
+  <div class="task">
+    Ствроіть функцію <strong>getStudentsNames(students),</strong><br>
+    яка повертає імена студентів у алфавітному порядку.<br>
+    <em>Результат: ["Anton", "Tanya, "Victor"].</em><br>
+
+    <button id="task-four" type="button" name="button" onclick ="alert(getStudentsNames);">
+      Код</button>
+  </div>
+
+<!-- task five -->
+  <div class="task">
+    Створіть функцію <strong>getBestStudent(students),</strong><br>
+    яка повертає кращого студента зі списку по показнику середньої оцінки.<br>
+    <em>Результат: "Anton".</em><br>
+
+    <button id="task-five" type="button" name="button" onclick ="alert(getBestStudent);">
+      Код</button>
+  </div>
+
+<!-- task six -->
+  <div class="task">
+    Створіть функцію calculateWordLetters("тест"),<br>
+    яка повертає обє'кт, в якому ключі це букви у слові,<br>
+    а значення – кількість їх повторень.<br>
+    <em>Результат: { "т": 2, "е": 1, "с": 1 }.</em><br>
+
+    <button id="task-six" type="button" name="button" onclick ="alert(calculateWordLetters);">
+      Код</button>
+  </div>
+
+
+</section>
+
+
+<script src="./main.js"></script>
+  </body>
+</html>
