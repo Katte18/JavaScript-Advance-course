@@ -93,4 +93,4 @@ class BudgetStudent extends Student {
 
 const student2 = new BudgetStudent("Львівська Політехніка", 4, "Август Віктор Вітковський", [5, 5, 5, 5], false);
 
-console.log(`${student2.getInfo()} зі стипендією у розмірі`);
+console.log(`${student2.getInfo()}`);
