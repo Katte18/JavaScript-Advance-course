@@ -1,7 +1,7 @@
 const sounds = [
   "fire",
-  "wind",
   "water",
+  "wind",
   "||"
 ];
 
