@@ -79,4 +79,4 @@ function getMySalary() {
 const SalaryRan = getMySalary.bind(eval(countryArr));
 
 const timer = setInterval(SalaryRan, 10000);
-setTimeout(() => clearInterval(timer), 10000);
+setTimeout(() => clearInterval(timer), 100000);
