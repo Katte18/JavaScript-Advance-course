@@ -79,8 +79,8 @@ new Student ("Вища школа Психотерапії м.Одеса", 1, "�
 class BudgetStudent extends Student {
   constructor (university, course, fullName, arrMarks, dismiss) {
     super (university, course, fullName, arrMarks, dismiss);
-      setInterval (() => this.getScholarship (), 1000);
-      setTimeout(() => clearInterval(), 1000);
+      setInterval (() => this.getScholarship (), 30000);
+      setTimeout(() => clearInterval(), 30000);
   }
 
   getScholarship () {
