@@ -47,7 +47,7 @@ class Student {
     if(this.dismiss === false) {
       return console.log(`study`);
     }else {
-      return console.log(`exluded`);
+      return console.log(`exсluded`);
     }
   }
 
